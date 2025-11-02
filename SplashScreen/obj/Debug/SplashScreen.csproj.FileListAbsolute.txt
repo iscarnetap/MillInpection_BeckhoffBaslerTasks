@@ -1,0 +1,251 @@
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\obj\Debug\MultiMaster.Properties.Resources.resources
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\obj\Debug\MultiMaster.SplashScreen.resources
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\IMC\Documents\Visual Studio 2010\Projects\MultiMaster\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\MultiMaster.Properties.Resources.resources
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\MultiMaster.SplashScreen.resources
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\Igor\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\user\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\MultiMaster.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\MultiMaster.SplashScreen.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\user\Documents\Visual Studio 2010\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\MultiMaster.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\MultiMaster.SplashScreen.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\Project_MultiMaster_Dalton_2017\MultiMaster\SplashScreen\obj\Debug\SplashScreen.csprojResolveAssemblyReference.cache
+C:\Users\user2\Documents\Visual Studio 2017\Projects\MultiMaster\MultiMaster\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\user2\Documents\Visual Studio 2017\Projects\MultiMaster\MultiMaster\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\user2\Documents\Visual Studio 2017\Projects\MultiMaster\MultiMaster\SplashScreen\obj\Debug\MultiMaster.Properties.Resources.resources
+C:\Users\user2\Documents\Visual Studio 2017\Projects\MultiMaster\MultiMaster\SplashScreen\obj\Debug\MultiMaster.SplashScreen.resources
+C:\Users\user2\Documents\Visual Studio 2017\Projects\MultiMaster\MultiMaster\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+C:\Users\user2\Documents\Visual Studio 2017\Projects\MultiMaster\MultiMaster\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\user2\Documents\Visual Studio 2017\Projects\MultiMaster\MultiMaster\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\user2\Documents\Visual Studio 2017\Projects\MultiMaster\MultiMaster\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SinteringUnloading.Properties.Resources.resources
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SinteringUnloading.SplashScreen.resources
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\user2\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SinteringUnloading.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SinteringUnloading.SplashScreen.resources
+C:\Users\User\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\User\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\User\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\obj\Debug\SinteringUnloading.Properties.Resources.resources
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\obj\Debug\SinteringUnloading.SplashScreen.resources
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUploading\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SinteringUnloading.Properties.Resources.resources
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SinteringUnloading.SplashScreen.resources
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\iscar\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SinteringUnloading.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SinteringUnloading.SplashScreen.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SinteringUnloading\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\obj\Debug\SumoNewMachine.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\obj\Debug\SumoNewMachine.SplashScreen.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\obj\Debug\SumoNewMachine.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\obj\Debug\SumoNewMachine.SplashScreen.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\Sumo - Copy\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\obj\Debug\SumoNewMachine.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\obj\Debug\SumoNewMachine.SplashScreen.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Projects\SumoNewMachine\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Projects\SumoNewMachine\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.csprojResolveAssemblyReference.cache
+C:\Projects\SumoNewMachine\SplashScreen\obj\Debug\SumoNewMachine.Properties.Resources.resources
+C:\Projects\SumoNewMachine\SplashScreen\obj\Debug\SumoNewMachine.SplashScreen.resources
+C:\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+C:\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Projects\SumoNewMachine\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Projects\SumoNewMachineVision\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Projects\SumoNewMachineVision\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Projects\SumoNewMachineVision\SplashScreen\obj\Debug\SumoNewMachine.Properties.Resources.resources
+C:\Projects\SumoNewMachineVision\SplashScreen\obj\Debug\SumoNewMachine.SplashScreen.resources
+C:\Projects\SumoNewMachineVision\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.Cache
+C:\Projects\SumoNewMachineVision\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Projects\SumoNewMachineVision\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Projects\SumoNewMachineVision\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Projects\SumoNewMachineVision\SplashScreen\obj\Debug\SplashScreen.csprojResolveAssemblyReference.cache
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\obj\Debug\CountingHMI.Properties.Resources.resources
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI\SplashScreen\obj\Debug\CountingHMI.SplashScreen.resources
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\obj\Debug\CountingHMI.Properties.Resources.resources
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\obj\Debug\CountingHMI.SplashScreen.resources
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\Deepl\Documents\Visual Studio 2017\Projects\CountingHMI\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI-actual\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI-actual\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI-actual\SplashScreen\obj\Debug\CountingHMI.Properties.Resources.resources
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI-actual\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI-actual\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI-actual\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI-actual\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\igors\Documents\Visual Studio Projects\CountingHMI-actual\SplashScreen\obj\Debug\RobotVision.SplashScreen.resources
+C:\Users\igors\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\igors\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\igors\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\CountingHMI.Properties.Resources.resources
+C:\Users\igors\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\RobotVision.SplashScreen.resources
+C:\Users\igors\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\igors\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\igors\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\igors\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\CountingHMI.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\RobotVision.SplashScreen.resources
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\PC\Documents\Visual Studio 2017\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\weardocu1\Documents\Visual Studio 2019\Projects\RobotVision-Mivdaka\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\weardocu1\Documents\Visual Studio 2019\Projects\RobotVision-Mivdaka\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\weardocu1\Documents\Visual Studio 2019\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\CountingHMI.Properties.Resources.resources
+C:\Users\weardocu1\Documents\Visual Studio 2019\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\RobotVision.SplashScreen.resources
+C:\Users\weardocu1\Documents\Visual Studio 2019\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\weardocu1\Documents\Visual Studio 2019\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\weardocu1\Documents\Visual Studio 2019\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\weardocu1\Documents\Visual Studio 2019\Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csprojAssemblyReference.cache
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\CountingHMI.Properties.Resources.resources
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\RobotVision.SplashScreen.resources
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\DeepL\Documents\Visual Studio Projects\RobotVision-Mivdaka\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\DeepL\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\DeepL\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\DeepL\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\DeepL\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\DeepL\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\DeepL\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\DeepL\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\TwistAngleMeasurement.Properties.Resources.resources
+C:\Users\DeepL\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\TwistAngleMeasurement.SplashScreen.resources
+C:\Project\Twist Angle Measurement\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Project\Twist Angle Measurement\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Project\Twist Angle Measurement\SplashScreen\obj\Debug\TwistAngleMeasurement.Properties.Resources.resources
+C:\Project\Twist Angle Measurement\SplashScreen\obj\Debug\TwistAngleMeasurement.SplashScreen.resources
+C:\Project\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Project\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Project\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Project\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Users\igors\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Users\igors\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Users\igors\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\TwistAngleMeasurement.Properties.Resources.resources
+C:\Users\igors\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\TwistAngleMeasurement.SplashScreen.resources
+C:\Users\igors\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Users\igors\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Users\igors\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Users\igors\Documents\Visual Studio Projects\Twist Angle Measurement\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Project\BeckhoffBasler\SplashScreen\obj\Debug\Inspection.Properties.Resources.resources
+C:\Project\BeckhoffBasler\SplashScreen\obj\Debug\Inspection.SplashScreen.resources
+C:\Project\BeckhoffBasler\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Project\BeckhoffBasler\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Project\BeckhoffBasler\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Project\BeckhoffBasler\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Project\BeckhoffBasler\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Project\BeckhoffBasler\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Project\BeckhoffBasler\SplashScreen\obj\Debug\SplashScreen.csproj.AssemblyReference.cache
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.AssemblyReference.cache
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\obj\Debug\Inspection.Properties.Resources.resources
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\obj\Debug\Inspection.SplashScreen.resources
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Project\4.2.2025\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.AssemblyReference.cache
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\Inspection.Properties.Resources.resources
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\Inspection.SplashScreen.resources
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.pdb
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\bin\Debug\SplashScreen.dll
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\bin\Debug\SplashScreen.pdb
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.AssemblyReference.cache
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\Inspection.Properties.Resources.resources
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\Inspection.SplashScreen.resources
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.GenerateResource.cache
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.dll
+C:\Project\Solution\BeckhoffBaslerTasks\SplashScreen\obj\Debug\SplashScreen.pdb

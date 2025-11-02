@@ -1,0 +1,8 @@
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\bin\Release\SplashScreen.dll
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\bin\Release\SplashScreen.pdb
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Release\Inspection.Properties.Resources.resources
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Release\Inspection.SplashScreen.resources
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Release\SplashScreen.csproj.GenerateResource.cache
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Release\SplashScreen.csproj.CoreCompileInputs.cache
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Release\SplashScreen.dll
+C:\Project\4.2.2025\InspectSolution\BeckhoffBaslerTasks\SplashScreen\obj\Release\SplashScreen.pdb
