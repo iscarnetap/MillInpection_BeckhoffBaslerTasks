@@ -1,0 +1,9 @@
+01 Break: Score=0.916016 Area=879.5 Perimeter=157.2 Ourer=141 X0=2788.5 Y0=1978.4 H=66 W=23
+01 Break: Score=0.889165 Area=253 Perimeter=77.9 Ourer=68 X0=2800 Y0=1909.2 H=31 W=15
+01 Break: Score=0.557125 Area=20.5 Perimeter=17.1 Ourer=15 X0=3831.1 Y0=1720.8 H=5 W=5
+01 Break: Score=0.893066 Area=936 Perimeter=159.7 Ourer=144 X0=3043.5 Y0=1485.7 H=26 W=64
+01 Break: Score=0.641107 Area=39.5 Perimeter=25.9 Ourer=23 X0=2986.5 Y0=1472.1 H=5 W=10
+01 Break: Score=0.762213 Area=165.5 Perimeter=52 Ourer=45 X0=2808.4 Y0=1172.8 H=18 W=13
+01 Break: Score=0.887693 Area=118 Perimeter=43.5 Ourer=36 X0=3450.4 Y0=922.2 H=12 W=15
+01 Break: Score=0.505367 Area=16.5 Perimeter=16.2 Ourer=15 X0=2427.4 Y0=833.9 H=5 W=4
+
