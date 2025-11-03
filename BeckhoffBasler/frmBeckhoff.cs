@@ -4448,12 +4448,18 @@ namespace Inspection
                     {
                         ConfigureWholeImageCameraAOI(camera1);
                         bSnapProcReady = false;
+
+                        await Task.Run(() => Thread.Sleep(20));
+
                         var taskSnapForColorHistogram = Task.Run(() => Snap(!bDebugMode, diam, true, "_ColorHistogram_")); //(bSnap)
                         await taskSnapForColorHistogram;
                         while (!bSnapProcReady)
                         {
                             Thread.Sleep(2);
                         }
+
+                        await Task.Run(() => Thread.Sleep(20));
+
                     }
 
 
