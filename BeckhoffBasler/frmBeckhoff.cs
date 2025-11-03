@@ -2960,12 +2960,14 @@ namespace Inspection
         void ConfigureWholeImageCameraAOI(Camera camera)
         {
             //full image size is 5320 X 3032
+            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
             ConfigureCameraAOI(camera, 0, 0, giMaximalCameraWidth, giMaximalCameraHeight);
         }
 
         void ConfigureHalfImageCameraAOI(Camera camera)
         {
             //half image size is 5320 X 1516
+            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIHalfImages;
             ConfigureCameraAOI(camera, 0, 0, giMaximalCameraWidth, giMaximalCameraHeight / 2);
         }
 
@@ -2999,6 +3001,7 @@ namespace Inspection
             // 2. the cropping of the top part:
             //   calculated from the middle of the image (height: 3032) a point the includes the top point of the 3 ROIs + a pixel tolerance
 
+            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
             var result = CalculateRoiBasedCameraAOI(giPixelTolerance);
 
             ConfigureCameraAOI(camera, result.iAOIOffsetX, result.iAOIOffsetY, result.iAOIWidth, result.iAOIHeight);
@@ -4434,28 +4437,38 @@ namespace Inspection
 
                 if (bSnap)
                 {
+
+
+
+                    //Thread.Sleep(100);
+
                     //take a full image for color histogram check
                     CheckIsFullImage(iFrameNumber, iFrameIndex);
-                    if(_bIsInFullImage)
+                    if (_bIsInFullImage)
                     {
                         ConfigureWholeImageCameraAOI(camera1);
                         bSnapProcReady = false;
-                        var taskSnapForColorHistogram = Task.Run(() => Snap(!bDebugMode, diam,true, "_ColorHistogram_")); //(bSnap)
+                        var taskSnapForColorHistogram = Task.Run(() => Snap(!bDebugMode, diam, true, "_ColorHistogram_")); //(bSnap)
                         await taskSnapForColorHistogram;
+                        while (!bSnapProcReady)
+                        {
+                            Thread.Sleep(2);
+                        }
                     }
 
 
-                    SetCameraAOIForDefectDectection(iFrameIndex,iFrameNumber);
+
+                    SetCameraAOIForDefectDectection(iFrameIndex, iFrameNumber);
 
                     bSnapProcReady = false;
                     bool bSaveImage = true;
                     var task = Task.Run(() => Snap(!bDebugMode, diam)); //(bSnap)
                     await task;
 
-                    while (!bSnapProcReady) {
+                    while (!bSnapProcReady)
+                    {
                         Thread.Sleep(2);
                     }
-                    //Thread.Sleep(100);
 
 
                     if (task.Result.rc < 0)
