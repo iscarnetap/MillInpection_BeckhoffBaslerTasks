@@ -1439,7 +1439,7 @@ namespace Inspection
                 PopulateFullImagesIndices();
 
                 cmbSaveResults.SelectedIndex = 2;
-                cmbSnapShotStrategy.SelectedIndex = (int)eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest;
+                cmbSnapShotStrategy.SelectedIndex = (int)eSnapShotStrategy.eSnapShotStrategyOnlyHalfImages;
                 frmMainInspect.onExposureChangedFromCatalogue += onExposureChangedFromCatalogueNumber;
                 frmMainInspect.onExposureChangedFromBeckofForm += onExposureChangedFromBeckofForm;
 
@@ -2927,10 +2927,10 @@ namespace Inspection
             eSnapShotStrategyOnlyHalfImages = 0,
             eSnapShotStrategyOnlyFullImages = 1,
             eSnapShotStrategyOnlyGeographicROIBasedImages = 2,
-            eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest = 3,
-            eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest = 4
+            //eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest = 3,
+            //eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest = 4
         }
-        eSnapShotStrategy _eSnapShotStrategy = eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest;
+        eSnapShotStrategy _eSnapShotStrategy = eSnapShotStrategy.eSnapShotStrategyOnlyHalfImages;
         enum eCurrentSnapShotAOI
         {
             eCurrentSnapShotAOI_NOTSETYET = -1,
@@ -3851,7 +3851,7 @@ namespace Inspection
 
         Bitmap bmpSave;
         //public async Task<TasksParameters_Snap> Snap(bool bSnap = true, bool diam = false, bool save=false)
-        public TasksParameters_Snap Snap(bool bSnap = true, bool diam = false, bool save = false)
+        public TasksParameters_Snap Snap(bool bSnap = true, bool diam = false, bool save = false, string sFileNameSuffix="")
         // Task<int> Snap(TasksParameters_Snap GetParamsSnap, bool bSnap = true)
         //public int Snap(out int xpar, out int ypar, out int widthpar, out int heightpar, out string sException)
         {
@@ -4008,7 +4008,7 @@ namespace Inspection
                                 // they are saved into the rejects folder with a name demarking the item, date and time AFTER they are inspected by congex
                                 if (_bIsInFullImage || cmbSaveResults.SelectedItem.ToString()!= "Don't Save Results" || save)
                                 {
-                                    using (FileStream file = new FileStream(aPath + "\\Images\\snap" + opt.ToString() + ".jpg", FileMode.Create, FileAccess.Write, FileShare.Inheritable))
+                                    using (FileStream file = new FileStream(aPath + "\\Images\\snap" + sFileNameSuffix + opt.ToString() + ".jpg", FileMode.Create, FileAccess.Write, FileShare.Inheritable))
                                     {
                                         MemoryStream ms = new System.IO.MemoryStream();
                                         int ind = opt - 1;
@@ -4286,7 +4286,7 @@ namespace Inspection
             return false;
         }
 
-        public async void SetCameraAOI(int iFrameIndex,int iFrameNumber)
+        public async void SetCameraAOIForDefectDectection(int iFrameIndex,int iFrameNumber)
         {
             //define an AOI according to the strategy
 
@@ -4295,7 +4295,7 @@ namespace Inspection
                 long h = camera1.Parameters[PLCamera.Height].GetValue();
                 Console.WriteLine($"Height just before snap: {h} image:{iFrameIndex}");
 
-                CheckIsFullImage(iFrameNumber, iFrameIndex);
+                //CheckIsFullImage(iFrameNumber, iFrameIndex);
 
 
                 //if this is the 1st time snapshot was taken
@@ -4305,46 +4305,44 @@ namespace Inspection
                     {
                         ConfigureWholeImageCameraAOI(camera1);
                         _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
-                        await Task.Run(() => Thread.Sleep(20));
                     }
                     else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyOnlyHalfImages)
                     {
                         ConfigureHalfImageCameraAOI(camera1);
                         _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIHalfImages;
-                        await Task.Run(() => Thread.Sleep(20));
                     }
                     else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyOnlyGeographicROIBasedImages)
                     {
                         ConfigureRoiBasedCameraAOI(camera1);
                         _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
-                        await Task.Run(() => Thread.Sleep(20));
                     }
-                    else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest)
-                    {
-                        if (_bIsInFullImage)
-                        {
-                            ConfigureWholeImageCameraAOI(camera1);
-                            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
-                        }
-                        else
-                        {
-                            ConfigureHalfImageCameraAOI(camera1);
-                        }
-                        await Task.Run(() => Thread.Sleep(20));
-                    }
-                    else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest)
-                    {
-                        if (_bIsInFullImage)
-                        {
-                            ConfigureWholeImageCameraAOI(camera1);
-                            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
-                        }
-                        else
-                        {
-                            ConfigureRoiBasedCameraAOI(camera1);
-                            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
-                        }
-                    }
+                    await Task.Run(() => Thread.Sleep(20));
+                    //else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest)
+                    //{
+                    //    if (_bIsInFullImage)
+                    //    {
+                    //        ConfigureWholeImageCameraAOI(camera1);
+                    //        _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
+                    //    }
+                    //    else
+                    //    {
+                    //        ConfigureHalfImageCameraAOI(camera1);
+                    //    }
+                    //    await Task.Run(() => Thread.Sleep(20));
+                    //}
+                    //else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest)
+                    //{
+                    //    if (_bIsInFullImage)
+                    //    {
+                    //        ConfigureWholeImageCameraAOI(camera1);
+                    //        _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
+                    //    }
+                    //    else
+                    //    {
+                    //        ConfigureRoiBasedCameraAOI(camera1);
+                    //        _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
+                    //    }
+                    //}
                     await Task.Run(() => Thread.Sleep(20));
                 }
                 //if the strategy is to only take the same kind of image (only full images, only half images, only roi based images)
@@ -4373,36 +4371,36 @@ namespace Inspection
                         await Task.Run(() => Thread.Sleep(20));
                     }
                 }
-                else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest ||
-                    _eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest)
-                {
-                    //if the CURRENT image needs to be taken as whole image
-                    if (_bIsInFullImage)
-                    {
-                        ConfigureWholeImageCameraAOI(camera1);
-                        _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
-                        await Task.Run(() => Thread.Sleep(20));
-                    }
-                    else
-                    {
-                        //if the current image needs AOI that is PART of the image
-                        //change the AOI ONLY if it wasn't already set the take part of the image
-                        if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest &&
-                            _eCurrentSnapShotAOI != eCurrentSnapShotAOI.eCurrentSnapShotAOIHalfImages)
-                        {
-                            ConfigureHalfImageCameraAOI(camera1);
-                            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIHalfImages;
-                            await Task.Run(() => Thread.Sleep(20));
-                        }
-                        else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest &&
-                            _eCurrentSnapShotAOI != eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages)
-                        {
-                            ConfigureRoiBasedCameraAOI(camera1);
-                            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
-                            await Task.Run(() => Thread.Sleep(20));
-                        }
-                    }
-                }
+                //else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest ||
+                //    _eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest)
+                //{
+                //    //if the CURRENT image needs to be taken as whole image
+                //    if (_bIsInFullImage)
+                //    {
+                //        ConfigureWholeImageCameraAOI(camera1);
+                //        _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
+                //        await Task.Run(() => Thread.Sleep(20));
+                //    }
+                //    else
+                //    {
+                //        //if the current image needs AOI that is PART of the image
+                //        //change the AOI ONLY if it wasn't already set the take part of the image
+                //        if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest &&
+                //            _eCurrentSnapShotAOI != eCurrentSnapShotAOI.eCurrentSnapShotAOIHalfImages)
+                //        {
+                //            ConfigureHalfImageCameraAOI(camera1);
+                //            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIHalfImages;
+                //            await Task.Run(() => Thread.Sleep(20));
+                //        }
+                //        else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest &&
+                //            _eCurrentSnapShotAOI != eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages)
+                //        {
+                //            ConfigureRoiBasedCameraAOI(camera1);
+                //            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
+                //            await Task.Run(() => Thread.Sleep(20));
+                //        }
+                //    }
+                //}
                 else
                 {
                     ComposeException(new Exception("No _eSnapShotStrategy was chosen"));
@@ -4436,7 +4434,18 @@ namespace Inspection
 
                 if (bSnap)
                 {
-                    SetCameraAOI(iFrameIndex,iFrameNumber);
+                    //take a full image for color histogram check
+                    CheckIsFullImage(iFrameNumber, iFrameIndex);
+                    if(_bIsInFullImage)
+                    {
+                        ConfigureWholeImageCameraAOI(camera1);
+                        bSnapProcReady = false;
+                        var taskSnapForColorHistogram = Task.Run(() => Snap(!bDebugMode, diam,true, "_ColorHistogram_")); //(bSnap)
+                        await taskSnapForColorHistogram;
+                    }
+
+
+                    SetCameraAOIForDefectDectection(iFrameIndex,iFrameNumber);
 
                     bSnapProcReady = false;
                     bool bSaveImage = true;
