@@ -2939,7 +2939,7 @@ namespace Inspection
             eCurrentSnapShotAOIGeographicROIBasedImages = 3,
         }
         eCurrentSnapShotAOI _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOI_NOTSETYET;
-
+        string sHistogramFileNameSuffix = "_ColorHistogram_";
         void PopulateFullImagesIndices()
         {
             _iSnapFullImage[8] = new int[2] { 0, 4 };
@@ -4451,7 +4451,7 @@ namespace Inspection
 
                         await Task.Run(() => Thread.Sleep(20));
 
-                        var taskSnapForColorHistogram = Task.Run(() => Snap(!bDebugMode, diam, true, "_ColorHistogram_")); //(bSnap)
+                        var taskSnapForColorHistogram = Task.Run(() => Snap(!bDebugMode, diam, true, sHistogramFileNameSuffix)); //(bSnap)
                         await taskSnapForColorHistogram;
                         while (!bSnapProcReady)
                         {
@@ -6318,10 +6318,12 @@ namespace Inspection
                                 string sFilePath = "";
                                 bool bres = false;
                                 int snaps = (int)(numBufferSize.Value / int.Parse( s[1]));
-                                for (int i = 1; i < numBufferSize.Value; i = i + snaps)
+                                for (int i = 1; i < numBufferSize.Value; i++)
                                 {
-
-                                    sFilePath = aPath + "\\Images\\snap" + i.ToString() + ".jpg";
+                                    CheckIsFullImage((int)(numBufferSize.Value), i-1);
+                                    if (!_bIsInFullImage)
+                                        continue;
+                                    sFilePath = aPath + "\\Images\\snap" + sHistogramFileNameSuffix + i.ToString() + ".jpg";
                                     //sFilePath = aPath + "\\Images\\snap1 16.jpg"; //"C:\\Users\\DeepL\\Documents\\Visual Studio Projects\\ContourIdentification\\Images";
                                     if (File.Exists(sFilePath))
                                     {
