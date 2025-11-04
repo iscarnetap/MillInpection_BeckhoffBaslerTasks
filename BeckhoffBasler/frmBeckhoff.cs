@@ -4444,7 +4444,7 @@ namespace Inspection
 
                     //take a full image for color histogram check
                     CheckIsFullImage(iFrameNumber, iFrameIndex);
-                    if (_bIsInFullImage)
+                    if (_bIsInFullImage && chkFileHistogram.Checked)
                     {
                         ConfigureWholeImageCameraAOI(camera1);
                         bSnapProcReady = false;
@@ -6197,6 +6197,12 @@ namespace Inspection
                                     inv.settxt(txtL, s[4]);
                                     inv.settxt(txtLU, s[5]);
                                     inv.settxt(txtPartNum, s[6]);
+                                    //NPNP
+                                    int iCheckColorHistogram = -1;
+                                    if (int.TryParse(s[7], out iCheckColorHistogram))
+                                        inv.set(chkFileHistogram, "Checked", (iCheckColorHistogram > 0 ? true : false));
+                                    else
+                                        ComposeException(new Exception($"Couldn't parse chkFileHistogram value {s[7]} for chkFileHistogram in RunWebComm({s[7]})"));
                                     send = "cmd90,1,end";
                                 }
                                 else
