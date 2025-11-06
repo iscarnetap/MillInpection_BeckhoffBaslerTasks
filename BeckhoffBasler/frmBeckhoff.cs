@@ -387,97 +387,97 @@ namespace Inspection
                     case 1:
                         opt1.Checked = true;
                         if (pct1.Image is null) return;
-                        pctSnap.Image = pct1.Image;
+                        pctSnap.Image = (Image)pct1.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct1.Image;
                         break;
                     case 2:
                         opt2.Checked = true;
                         if (pct2.Image is null) return;
-                        pctSnap.Image = pct2.Image;
+                        pctSnap.Image = (Image)pct2.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct2.Image;
                         break;
                     case 3:
                         opt3.Checked = true;
                         if (pct3.Image is null) return;
-                        pctSnap.Image = pct3.Image;
+                        pctSnap.Image = (Image)pct3.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct3.Image;
                         break;
                     case 4:
                         opt4.Checked = true;
                         if (pct4.Image is null) return;
-                        pctSnap.Image = pct4.Image;
+                        pctSnap.Image = (Image)pct4.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct4.Image;
                         break;
                     case 5:
                         opt5.Checked = true;
                         if (pct5.Image is null) return;
-                        pctSnap.Image = pct5.Image;
+                        pctSnap.Image = (Image)pct5.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct5.Image;
                         break;
                     case 6:
                         opt6.Checked = true;
                         if (pct6.Image is null) return;
-                        pctSnap.Image = pct6.Image;
+                        pctSnap.Image = (Image)pct6.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct6.Image;
                         break;
                     case 7:
                         opt7.Checked = true;
                         if (pct7.Image is null) return;
-                        pctSnap.Image = pct7.Image;
+                        pctSnap.Image = (Image)pct7.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct7.Image;
                         break;
                     case 8:
                         opt8.Checked = true;
                         if (pct8.Image is null) return;
-                        pctSnap.Image = pct8.Image;
+                        pctSnap.Image = (Image)pct8.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct8.Image;
                         break;
                     case 9:
                         opt9.Checked = true;
                         if (pct9.Image is null) return;
-                        pctSnap.Image = pct9.Image;
+                        pctSnap.Image = (Image)pct9.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct9.Image;
                         break;
                     case 10:
                         opt10.Checked = true;
                         if (pct10.Image is null) return;
-                        pctSnap.Image = pct10.Image;
+                        pctSnap.Image = (Image)pct10.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct10.Image;
                         break;
                     case 11:
                         opt11.Checked = true;
                         if (pct11.Image is null) return;
-                        pctSnap.Image = pct11.Image;
+                        pctSnap.Image = (Image)pct11.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct11.Image;
                         break;
                     case 12:
                         opt12.Checked = true;
                         if (pct12.Image is null) return;
-                        pctSnap.Image = pct12.Image;
+                        pctSnap.Image = (Image)pct12.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct12.Image;
                         break;
                     case 13:
                         opt13.Checked = true;
                         if (pct13.Image is null) return;
-                        pctSnap.Image = pct13.Image;
+                        pctSnap.Image = (Image)pct13.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct13.Image;
                         break;
                     case 14:
                         opt14.Checked = true;
                         if (pct14.Image is null) return;
-                        pctSnap.Image = pct14.Image;
+                        pctSnap.Image = (Image)pct14.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct14.Image;
                         break;
                     case 15:
                         opt15.Checked = true;
                         if (pct15.Image is null) return;
-                        pctSnap.Image = pct15.Image;
+                        pctSnap.Image = (Image)pct15.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct15.Image;
                         break;
                     case 16:
                         opt16.Checked = true;
                         if (pct16.Image is null) return;
-                        pctSnap.Image = pct16.Image;
+                        pctSnap.Image = (Image)pct16.Image.Clone();
                         frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct16.Image;
                         break;
                     default: return;
@@ -1784,7 +1784,7 @@ namespace Inspection
                 Exit.Start();
                 while (Exit.ElapsedMilliseconds < 1000)
                 {
-                    Application.DoEvents();
+                    //Application.DoEvents();
                 }
                 Exit.Stop();
                 Exit.Reset();
@@ -5079,7 +5079,7 @@ namespace Inspection
                 {
                     opt1.Checked = true;
                     if (pct1.Image is null) return;
-                    pctSnap.Image = pct1.Image; num = 0;
+                    pctSnap.Image = (Image)pct1.Image.Clone(); num = 0;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct1.Image;
 
                 }
@@ -5087,106 +5087,105 @@ namespace Inspection
                 {
                     opt2.Checked = true;
                     if (pct2.Image is null) return;
-                    pctSnap.Image = pct2.Image; num = 1;
+                    pctSnap.Image = (Image)pct2.Image.Clone(); num = 1;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct2.Image;
                 }
                 if (sender == pct3)
                 {
                     opt3.Checked = true;
                     if (pct3.Image is null) return;
-                    pctSnap.Image = pct3.Image; num = 2;
+                    pctSnap.Image = (Image)pct3.Image.Clone(); num = 2;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct3.Image;
                 }
                 if (sender == pct4)
                 {
                     opt4.Checked = true;
                     if (pct4.Image is null) return;
-                    pctSnap.Image = pct4.Image; num = 3;
+                    pctSnap.Image = (Image)pct4.Image.Clone(); num = 3;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct4.Image;
                 }
                 if (sender == pct5)
                 {
                     opt5.Checked = true;
                     if (pct5.Image is null) return;
-                    pctSnap.Image = pct5.Image; num = 4;
+                    pctSnap.Image = (Image)pct5.Image.Clone(); num = 4;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct5.Image;
                 }
                 if (sender == pct6)
                 {
                     opt6.Checked = true;
                     if (pct6.Image is null) return;
-                    pctSnap.Image = pct6.Image; num = 5;
+                    pctSnap.Image = (Image)pct6.Image.Clone(); num = 5;
                     //frmBeckhoff.frmFrontInspect.pictureBoxInspect.Image = pct6.Image;
                 }
                 if (sender == pct7)
                 {
                     opt7.Checked = true;
                     if (pct7.Image is null) return;
-                    pctSnap.Image = pct7.Image; num = 6;
+                    pctSnap.Image = (Image)pct7.Image.Clone(); num = 6;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct7.Image;
                 }
                 if (sender == pct8)
                 {
                     opt8.Checked = true;
                     if (pct8.Image is null) return;
-                    pctSnap.Image = pct8.Image; num = 7;
+                    pctSnap.Image = (Image)pct8.Image.Clone(); num = 7;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct8.Image;
                 }
                 if (sender == pct9)
                 {
                     opt9.Checked = true;
                     if (pct9.Image is null) return;
-                    pctSnap.Image = pct9.Image; num = 8;
+                    pctSnap.Image = (Image)pct9.Image.Clone(); num = 8;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct9.Image;
                 }
                 if (sender == pct10)
                 {
                     opt10.Checked = true;
                     if (pct10.Image is null) return;
-                    pctSnap.Image = pct10.Image; num = 9;
+                    pctSnap.Image = (Image)pct10.Image.Clone(); num = 9;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct10.Image;
                 }
                 if (sender == pct11)
                 {
                     opt11.Checked = true;
                     if (pct11.Image is null) return;
-                    pctSnap.Image = pct11.Image; num = 10;
+                    pctSnap.Image = (Image)pct11.Image.Clone(); num = 10;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct11.Image;
                 }
                 if (sender == pct12)
                 {
                     opt12.Checked = true;
                     if (pct12.Image is null) return;
-                    pctSnap.Image = pct12.Image; num = 11;
+                    pctSnap.Image = (Image)pct12.Image.Clone(); num = 11;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct12.Image;
                 }
                 if (sender == pct13)
                 {
                     opt13.Checked = true;
                     if (pct13.Image is null) return;
-                    pctSnap.Image = pct13.Image; num = 12;
+                    pctSnap.Image = (Image)pct13.Image.Clone(); num = 12;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct13.Image;
                 }
                 if (sender == pct14)
                 {
                     opt14.Checked = true;
                     if (pct14.Image is null) return;
-                    pctSnap.Image = pct14.Image; num = 13;
+                    pctSnap.Image = (Image)pct14.Image.Clone(); num = 13;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct14.Image;
                 }
                 if (sender == pct15)
                 {
                     opt15.Checked = true;
                     if (pct15.Image is null) return;
-                    pctSnap.Image = pct15.Image; num = 14;
+                    pctSnap.Image = (Image)pct15.Image.Clone(); num = 14;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct15.Image;
                 }
                 if (sender == pct16)
                 {
                     opt16.Checked = true;
                     if (pct16.Image is null) return;
-                    
-                    pctSnap.Image = pct16.Image; num = 15;
+                    pctSnap.Image = (Image)pct16.Image.Clone(); num = 15;
                     frmBeckhoff.frmMainInspect.pictureBoxInspect.Image = pct16.Image;
 
                 }
@@ -8337,7 +8336,7 @@ namespace Inspection
                 if (inCycleInspect || inCycleVision || inCycleInspectFront) return;
                 e.Graphics.ResetTransform();
                 Pen p = new Pen(Color.Red);
-                p.Width = 0.2f;
+                p.Width = 0.4f;
                 string[] RegionFoundBrSave = new string[1];
                 string[] RegionFoundPlSave = new string[1];
                 Double x0 = 0;
@@ -8591,6 +8590,7 @@ namespace Inspection
                         h = h * 5.0f;
                         p.Width = 0.2f;
                         re = new Rectangle((int)(x00 + x0roi - w / 2), (int)((y00 + y0roi - h / 2)), (int)(w), (int)(h));
+                        var DefectRectangleOnImage = new Rectangle((int)X0 , (int)Y0, 100,100);
 
                         //if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest)
                         //{
@@ -8610,11 +8610,32 @@ namespace Inspection
                         //}
                         bool bDebug = false;
                         if (!bDebug)
-                            e.Graphics.DrawRectangle(p, re);
+                        {
+                            Graphics.FromImage(pctSnap.Image).DrawRectangle(p, re);
+                            //e.Graphics.DrawRectangle(p, re);
+                            Graphics.FromImage(pctSnap.Image).DrawRectangle(p, DefectRectangleOnImage);
+
+
+
+                            using (Graphics g = Graphics.FromImage(pctSnap.Image))
+                            {
+                                // Draw a huge green rectangle that covers almost the entire image
+                                Rectangle rect = new Rectangle(100, 100, 2000, 2000);
+                                using (SolidBrush brush = new SolidBrush(Color.Green))
+                                {
+                                    g.FillRectangle(brush, re/*rect*/);
+                                }
+                            }
+                            pctSnap.Invalidate(); // Refresh PictureBox to show changes
+
+
+
+                        }
                         else
                         {
                             e.Graphics.FillRectangle(new SolidBrush(Color.Green), re);
                         }
+                        pctSnap.Invalidate(); // Refresh PictureBox to show changes
                         //(Single)scalew, (Single)scaleh
                         System.Drawing.Point pt = new System.Drawing.Point((int)((x00 + x0roi - w / 2) * (Single)scalew), (int)((y00 + y0roi - h / 2) * (Single)scaleh));
 
