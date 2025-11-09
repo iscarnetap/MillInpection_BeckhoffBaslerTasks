@@ -4139,10 +4139,7 @@ namespace Inspection
             this.cmbSnapShotStrategy.Items.AddRange(new object[] {
             "All Images Half Height",
             "All Images Full Size",
-            "All Images ROI Based",
-            "Images Half Height. Full Size ColorHistogram",
-            "Images ROI Based. Full Size ColorHistogram",
-            ""});
+            "All Images ROI Based"});
             this.cmbSnapShotStrategy.Location = new System.Drawing.Point(1666, 927);
             this.cmbSnapShotStrategy.Name = "cmbSnapShotStrategy";
             this.cmbSnapShotStrategy.Size = new System.Drawing.Size(236, 21);
