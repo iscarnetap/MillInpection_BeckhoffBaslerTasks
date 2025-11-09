@@ -4319,7 +4319,7 @@ namespace Inspection
                         ConfigureRoiBasedCameraAOI(camera1);
                         _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
                     }
-                    await Task.Run(() => Thread.Sleep(20));
+                    await Task.Run(() => Thread.Sleep(50));
                     //else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramHalfImagesForTheRest)
                     //{
                     //    if (_bIsInFullImage)
@@ -4346,7 +4346,6 @@ namespace Inspection
                     //        _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
                     //    }
                     //}
-                    await Task.Run(() => Thread.Sleep(20));
                 }
                 //if the strategy is to only take the same kind of image (only full images, only half images, only roi based images)
                 //then the AOI was already set at the if (_eCurrentSnapShotAOI == eCurrentSnapShotAOI.eCurrentSnapShotAOI_NOTSETYET)
@@ -4359,19 +4358,19 @@ namespace Inspection
                         _eCurrentSnapShotAOI != eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages)
                     {
                         ConfigureWholeImageCameraAOI(camera1);
-                        await Task.Run(() => Thread.Sleep(20));
+                        await Task.Run(() => Thread.Sleep(50));
                     }
                     else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyOnlyHalfImages &&
                         _eCurrentSnapShotAOI != eCurrentSnapShotAOI.eCurrentSnapShotAOIHalfImages)
                     {
                         ConfigureHalfImageCameraAOI(camera1);
-                        await Task.Run(() => Thread.Sleep(20));
+                        await Task.Run(() => Thread.Sleep(50));
                     }
                     else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyOnlyGeographicROIBasedImages &&
                         _eCurrentSnapShotAOI != eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages)
                     {
                         ConfigureRoiBasedCameraAOI(camera1);
-                        await Task.Run(() => Thread.Sleep(20));
+                        await Task.Run(() => Thread.Sleep(50));
                     }
                 }
                 //else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest ||
@@ -4382,7 +4381,7 @@ namespace Inspection
                 //    {
                 //        ConfigureWholeImageCameraAOI(camera1);
                 //        _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIFullImages;
-                //        await Task.Run(() => Thread.Sleep(20));
+                //        await Task.Run(() => Thread.Sleep(50));
                 //    }
                 //    else
                 //    {
@@ -4393,14 +4392,14 @@ namespace Inspection
                 //        {
                 //            ConfigureHalfImageCameraAOI(camera1);
                 //            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIHalfImages;
-                //            await Task.Run(() => Thread.Sleep(20));
+                //            await Task.Run(() => Thread.Sleep(50));
                 //        }
                 //        else if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest &&
                 //            _eCurrentSnapShotAOI != eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages)
                 //        {
                 //            ConfigureRoiBasedCameraAOI(camera1);
                 //            _eCurrentSnapShotAOI = eCurrentSnapShotAOI.eCurrentSnapShotAOIGeographicROIBasedImages;
-                //            await Task.Run(() => Thread.Sleep(20));
+                //            await Task.Run(() => Thread.Sleep(50));
                 //        }
                 //    }
                 //}
@@ -4449,7 +4448,7 @@ namespace Inspection
                         ConfigureWholeImageCameraAOI(camera1);
                         bSnapProcReady = false;
 
-                        await Task.Run(() => Thread.Sleep(20));
+                        await Task.Run(() => Thread.Sleep(50));
 
                         var taskSnapForColorHistogram = Task.Run(() => Snap(!bDebugMode, diam, true, sHistogramFileNameSuffix)); //(bSnap)
                         await taskSnapForColorHistogram;
@@ -4458,7 +4457,7 @@ namespace Inspection
                             Thread.Sleep(2);
                         }
 
-                        await Task.Run(() => Thread.Sleep(20));
+                        await Task.Run(() => Thread.Sleep(50));
 
                     }
 
@@ -5770,7 +5769,7 @@ namespace Inspection
                                 await task;
                                 GetParamsShow = task.Result;
 
-                                //await Task.Run(()=>Thread.Sleep(20));
+                                //await Task.Run(()=>Thread.Sleep(50));
                             }
                             else
                             {
@@ -8605,7 +8604,7 @@ namespace Inspection
                         if (h < 1) { h = 1.0f; }// p = new Pen(Color.Orange); }
                         w = w * 5.0f;
                         h = h * 5.0f;
-                        p.Width = 0.2f;
+                        p.Width = 4f;
                         re = new Rectangle((int)(x00 + x0roi - w / 2), (int)((y00 + y0roi - h / 2)), (int)(w), (int)(h));
                         var DefectRectangleOnImage = new Rectangle((int)X0 , (int)Y0, 100,100);
 
