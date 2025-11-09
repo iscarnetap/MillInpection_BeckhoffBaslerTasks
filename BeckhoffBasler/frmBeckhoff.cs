@@ -1439,7 +1439,7 @@ namespace Inspection
                 PopulateFullImagesIndices();
 
                 cmbSaveResults.SelectedIndex = 2;
-                cmbSnapShotStrategy.SelectedIndex = (int)eSnapShotStrategy.eSnapShotStrategyOnlyHalfImages;
+                cmbSnapShotStrategy.SelectedIndex = (int)eSnapShotStrategy.eSnapShotStrategyOnlyGeographicROIBasedImages;
                 frmMainInspect.onExposureChangedFromCatalogue += onExposureChangedFromCatalogueNumber;
                 frmMainInspect.onExposureChangedFromBeckofForm += onExposureChangedFromBeckofForm;
 
@@ -2910,7 +2910,7 @@ namespace Inspection
         const long giMaximalCameraHeight = 3032;
         Dictionary<int, int[]> _iSnapFullImage = new Dictionary<int, int[]>();
         bool _bIsInFullImage = false;
-        int giPixelTolerance = 100;
+        static public int giPixelTolerance = 100;
 
 
         //According to cmbSnapShotStrategy
@@ -2922,7 +2922,7 @@ namespace Inspection
 
         //CAUTION!!! Do NOT change cmbSnapShotStrategy values, indices or order withhout changing eSnapShotStrategy accordinlgy
 
-        enum eSnapShotStrategy
+        public enum eSnapShotStrategy
         {
             eSnapShotStrategyOnlyHalfImages = 0,
             eSnapShotStrategyOnlyFullImages = 1,
@@ -10217,6 +10217,7 @@ namespace Inspection
             if (cmbSnapShotStrategy.SelectedIndex != -1)
             {
                 _eSnapShotStrategy = (eSnapShotStrategy)cmbSnapShotStrategy.SelectedIndex;
+                frmMainInspect._eSnapShotStrategy = (int)_eSnapShotStrategy;
             }
         }
 
