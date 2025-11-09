@@ -4515,6 +4515,7 @@ namespace Inspection
             }
             catch (Exception e)
             {
+                ConfigureWholeImageCameraAOI(camera1);
                 GetParams.sException = "Error: " + e.Message;
 
                 GetParams.berr = true;
@@ -5726,6 +5727,7 @@ namespace Inspection
                                 MessageBox.Show("ERROR MOVE", "MotionInCycle", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                                 rep.result = false;
                                 _ = Task.Run(() => ShowForms(true));
+                                ConfigureWholeImageCameraAOI(camera1);
                                 return rep;
                             }
                             else
@@ -5754,6 +5756,7 @@ namespace Inspection
                                 rep.result = false;
                                 frmMainInspect.AddList("Stop vision Cycle" + " //" + DateTime.Now.ToString("HH:mm:ss.fff"));
                                 _ = Task.Run(() => ShowForms(true));
+                                ConfigureWholeImageCameraAOI(camera1);
                                 return rep;
                             }
 
@@ -5833,6 +5836,7 @@ namespace Inspection
                                         MessageBox.Show(GetParamsShow.sException, "Snap+Detect4", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                                         rep.result = false;
                                         _ = Task.Run(() => ShowForms(true));
+                                        ConfigureWholeImageCameraAOI(camera1);
                                         return rep;
                                     }
                                 }
@@ -5853,6 +5857,7 @@ namespace Inspection
                                     MessageBox.Show(GetParamsShow.sException, "Snap+Detect2", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
                                     rep.result = false;
                                     _ = Task.Run(() => ShowForms(true));
+                                    ConfigureWholeImageCameraAOI(camera1);
                                     return rep;
                                 }
                             }
@@ -5860,7 +5865,12 @@ namespace Inspection
 
 
                             Thread.Sleep(1);
-                            if (frmMainInspect.StopCycle) { frmMainInspect.AddList("Vision stop" + " //" + DateTime.Now.ToString("HH:mm:ss.fff")); ; return rep; }
+                            if (frmMainInspect.StopCycle)
+                            {
+                                frmMainInspect.AddList("Vision stop" + " //" + DateTime.Now.ToString("HH:mm:ss.fff"));
+                                ConfigureWholeImageCameraAOI(camera1);
+                                return rep;
+                            }
                         }
                         //inv.settxt(txtMess, txtMess.Text + "-->" + "fini vis" + nFrame.ToString() + " // " + DateTime.Now.ToString("HH:mm:ss.fff") + "\r\n");
                         s = s + "-->" + "fini vis" + nFrame.ToString() + " // " + DateTime.Now.ToString("HH:mm:ss.fff") + "\r\n";
@@ -5881,12 +5891,14 @@ namespace Inspection
                     rep.status = "0,0";
                     _ = Task.Run(() => ShowForms(true));
                     if (frmMainInspect.StopCycle) { frmMainInspect.AddList("Vision stop" + " //" + DateTime.Now.ToString("HH:mm:ss.fff"));  return rep; }
+                    ConfigureWholeImageCameraAOI(camera1);
                     return rep;
                 }
                 else { rep.result = true;
                     inv.settxt(frmRun.lblTime, txtCycleTime.Text);
                     Thread.Sleep(200);
                     _ = Task.Run(() => ShowForms(true));
+                    ConfigureWholeImageCameraAOI(camera1);
                     return rep; }
 
                 inv.settxt(txtMess, s);
@@ -5896,8 +5908,13 @@ namespace Inspection
 
 
             }
-            catch (System.Exception ex) { inCycleVision = false; frmMainInspect.AddList("Error vision Cycle" +" //" + DateTime.Now.ToString("HH:mm:ss.fff"));  rep.result = false; inv.set(pct1liveTab, "Visible", true);
-                ShowForms(true); return rep; }
+            catch (System.Exception ex)
+            {
+                inCycleVision = false; frmMainInspect.AddList("Error vision Cycle" +" //" + DateTime.Now.ToString("HH:mm:ss.fff"));  rep.result = false; inv.set(pct1liveTab, "Visible", true);
+                ShowForms(true);
+                ConfigureWholeImageCameraAOI(camera1);
+                return rep;
+            }
         }
         int RejectB = -1;
         int RejectP = -1;
@@ -10220,7 +10237,7 @@ namespace Inspection
                 //if (region == 1)
                 //{
                     p = new Pen(Color.Red);
-                    p.Width = 0.2f;
+                    p.Width = 2f;
                     RegionFoundBrSave = new string[frmMainInspect.RegionFoundFrontBrSave.Length];
                     RegionFoundBrSave = frmMainInspect.RegionFoundFrontBrSave;
                     //RegionFoundPlSave = new string[frmMainInspect.RegionFoundFrontPlSave.Length];
