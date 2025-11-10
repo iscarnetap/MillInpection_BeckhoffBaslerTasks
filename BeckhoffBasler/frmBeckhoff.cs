@@ -372,8 +372,8 @@ namespace Inspection
                 chkStretchImage2.Checked = true;
                 tabControl1.SelectedTab = tabControl1.TabPages[1];
                 //NPNP don't strech unless pressing the strech button
-                pctSnap.SizeMode = PictureBoxSizeMode.StretchImage;//
-                //pctSnap.SizeMode = PictureBoxSizeMode.Zoom;//
+                //pctSnap.SizeMode = PictureBoxSizeMode.StretchImage;//
+                pctSnap.SizeMode = PictureBoxSizeMode.Zoom;//
                 pctSnap.Width = panel1liveTab.Width - 2; //930
                 pctSnap.Height = panel1liveTab.Height - 2; //698
 
@@ -3970,7 +3970,8 @@ namespace Inspection
                                 {
                                     //frmMainInspect.AddList("Get Mstream " + (opt).ToString() + " //" + DateTime.Now.ToString("HH:mm:ss.fff"));
                                     Bitmap btm = (Bitmap)pct1liveTab.Image.Clone();
-                                    
+                                    Console.WriteLine("Snap size: " + btm.Width.ToString() + "x" + btm.Height.ToString() + "");
+
                                     frmMainInspect.StreamImage[opt - 1] = new System.IO.MemoryStream(); 
                                     btm.Save(frmMainInspect.StreamImage[opt - 1], ici, myEncoderParameters);
                                     if (opt > 0) frmMainInspect.SnapFile[opt - 1] = aPath + "\\Images\\snap" + opt.ToString() + ".jpg";
@@ -5060,8 +5061,8 @@ namespace Inspection
 
                 tabControl1.SelectedTab = tabControl1.TabPages[1];
                 //NPNP don't strech unless pressing the strech button
-                pctSnap.SizeMode = PictureBoxSizeMode.StretchImage;
-                //pctSnap.SizeMode = PictureBoxSizeMode.Zoom;
+                //pctSnap.SizeMode = PictureBoxSizeMode.StretchImage;
+                pctSnap.SizeMode = PictureBoxSizeMode.Zoom;
                 pctSnap.Width = panel1liveTab.Width - 2; //930
                 //pctSnap.Height = panel1liveTab.Height - 2; //698
                 pctSnap.Height = (int)(pctSnap.Width * 3648.0f / 5472.0f);
