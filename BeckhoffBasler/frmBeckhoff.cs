@@ -4905,7 +4905,7 @@ namespace Inspection
                     //pctSnap.Height = panel2.Height - 2; //698
                     //pctSnap.SizeMode = PictureBoxSizeMode.Zoom; // PictureBoxSizeMode.StretchImage;
 
-                    pctSnap.SizeMode = PictureBoxSizeMode.StretchImage;//.StretchImage
+                    pctSnap.SizeMode = PictureBoxSizeMode.Zoom;//.StretchImage
                     pctSnap.Dock = DockStyle.Fill;
                     pctSnap.Width = panel1liveTab.Width - 2; //930
                     //pctSnap.Height = panel1liveTab.Height - 2; //698
