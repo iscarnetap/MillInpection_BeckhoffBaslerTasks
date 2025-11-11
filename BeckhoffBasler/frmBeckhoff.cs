@@ -4449,6 +4449,9 @@ namespace Inspection
                         ConfigureWholeImageCameraAOI(camera1);
                         bSnapProcReady = false;
 
+                        //signalling the frmMainInspect that a snapshot for color histogram check is being taken
+                        //so it will not search for defects in that image
+                        frmMainInspect.bTakingSnapshotForColorHistogramCheck = true;
                         await Task.Run(() => Thread.Sleep(50));
 
                         var taskSnapForColorHistogram = Task.Run(() => Snap(!bDebugMode, diam, true, sHistogramFileNameSuffix)); //(bSnap)
@@ -4459,6 +4462,7 @@ namespace Inspection
                         }
 
                         await Task.Run(() => Thread.Sleep(50));
+
 
                     }
 
@@ -4476,6 +4480,9 @@ namespace Inspection
                         Thread.Sleep(2);
                     }
 
+                    //signalling the frmMainInspect snapshots for color histogram check are no longer being taken
+                    //so it will not search for defects in that image
+                    frmMainInspect.bTakingSnapshotForColorHistogramCheck = false;
 
                     if (task.Result.rc < 0)
                     { // rc < 0
