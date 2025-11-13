@@ -10071,7 +10071,7 @@ namespace Inspection
                 ClearPictureArray();
 
                 inv.settxt(lblCount, "0");
-                OptChecked(0);
+                OptChecked(1);
                 var task = Task.Run(() => ProcDetect(true, false, true));
                 await task;
                 if (task.Result.berr)
