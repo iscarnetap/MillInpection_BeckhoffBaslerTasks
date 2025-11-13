@@ -6353,7 +6353,8 @@ namespace Inspection
                                         var task6 = Task.Run(() => FileHistogram(sFilePath));
                                         await task6;
                                         StrHist result = task6.Result;
-                                        if (!result.bErr)
+                                        //if (!result.bErr && result.bNormal)
+                                        if (!result.bErr && result.bNormal)
                                         {
 
                                         }
