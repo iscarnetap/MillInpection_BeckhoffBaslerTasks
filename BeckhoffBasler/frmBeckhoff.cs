@@ -8615,7 +8615,7 @@ namespace Inspection
                         h = h * 5.0f;
                         p.Width = 4f;
                         re = new Rectangle((int)(x00 + x0roi - w / 2), (int)((y00 + y0roi - h / 2)), (int)(w), (int)(h));
-                        var DefectRectangleOnImage = new Rectangle((int)X0 , (int)Y0, 100,100);
+                        var DefectRectangleOnImage = new Rectangle((int)(X0-W/2) , (int)(Y0-H/2), (int)(W<100?100:W), (int)(H < 100 ? 100 : H));
 
                         //if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest)
                         //{
@@ -8636,21 +8636,20 @@ namespace Inspection
                         bool bDebug = false;
                         if (!bDebug)
                         {
-                            Graphics.FromImage(pctSnap.Image).DrawRectangle(p, re);
+                            //Graphics.FromImage(pctSnap.Image).DrawRectangle(p, re);
                             //e.Graphics.DrawRectangle(p, re);
                             Graphics.FromImage(pctSnap.Image).DrawRectangle(p, DefectRectangleOnImage);
 
+                            //using (Graphics g = Graphics.FromImage(pctSnap.Image))
+                            //{
+                            //    // Draw a huge green rectangle that covers almost the entire image
+                            //    Rectangle rect = new Rectangle(100, 100, 2000, 2000);
+                            //    using (SolidBrush brush = new SolidBrush(Color.Green))
+                            //    {
+                            //        g.FillRectangle(brush, re/*rect*/);
+                            //    }
+                            //}
 
-
-                            using (Graphics g = Graphics.FromImage(pctSnap.Image))
-                            {
-                                // Draw a huge green rectangle that covers almost the entire image
-                                Rectangle rect = new Rectangle(100, 100, 2000, 2000);
-                                using (SolidBrush brush = new SolidBrush(Color.Green))
-                                {
-                                    g.FillRectangle(brush, re/*rect*/);
-                                }
-                            }
                             pctSnap.Invalidate(); // Refresh PictureBox to show changes
 
 
