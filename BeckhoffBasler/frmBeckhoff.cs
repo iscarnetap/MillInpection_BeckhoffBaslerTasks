@@ -348,6 +348,25 @@ namespace Inspection
         public string RejectString = "";
         //bool listSelected = false;
 
+        public void onShowForms(object sender, EventArgs e)
+        {
+            try
+            {
+                if (InvokeRequired)
+                {
+                    this.Invoke(new Action(() => ShowForms(true)));
+                }
+                else
+                {
+                    ShowForms(true);
+                }
+            }
+            catch (Exception ex)
+            {
+                ComposeException(ex);
+            }
+        }
+
         private void onExposureChangedFromCatalogueNumber(object sender, frmMain.CustomEventArgInt e)
         {
             UpdateTopInpectionExposureTime(e.iint);
@@ -1442,6 +1461,7 @@ namespace Inspection
                 cmbSnapShotStrategy.SelectedIndex = (int)eSnapShotStrategy.eSnapShotStrategyOnlyGeographicROIBasedImages;
                 frmMainInspect.onExposureChangedFromCatalogue += onExposureChangedFromCatalogueNumber;
                 frmMainInspect.onExposureChangedFromBeckofForm += onExposureChangedFromBeckofForm;
+                frmRun.onShowForms += onShowForms;
 
                 this.Invoke(new Action(() => this.Cursor = curs));
                 this.Focus();

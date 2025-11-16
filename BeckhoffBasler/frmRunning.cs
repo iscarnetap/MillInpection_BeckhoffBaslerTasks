@@ -19,9 +19,16 @@ namespace BeckhoffBasler
 
         public bool bSwowProgram = false;
         public int frames = 0;
+
+        public event EventHandler<EventArgs> onShowForms;
+        public delegate void CustomEventHandler(object sender, EventArgs e);
+        public EventArgs myCustomEventArgInt = new EventArgs();
+
+
         public void btnShowMain_Click(object sender, EventArgs e)
         {
             bSwowProgram = true;
+            onShowForms(this, myCustomEventArgInt);
         }
 
         private void lblSnap_TextChanged(object sender, EventArgs e)
