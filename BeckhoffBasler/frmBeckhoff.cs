@@ -8615,7 +8615,10 @@ namespace Inspection
                         h = h * 5.0f;
                         p.Width = 4f;
                         re = new Rectangle((int)(x00 + x0roi - w / 2), (int)((y00 + y0roi - h / 2)), (int)(w), (int)(h));
-                        var DefectRectangleOnImage = new Rectangle((int)(X0-W/2) , (int)(Y0-H/2), (int)(W<100?100:W), (int)(H < 100 ? 100 : H));
+                        //var DefectRectangleOnImage = new Rectangle((int)(X0 - W / 2), (int)(Y0 - H / 2), (int)(W < 100 ? 100 : W), (int)(H < 100 ? 100 : H));
+                        W = (W < 100 ? 100 : W);
+                        H = (H < 100 ? 100 : H);
+                        var DefectRectangleOnImage = new Rectangle((int)(X0 - W / 2), (int)(Y0 - H / 2), (int)(W < 100 ? 100 : W), (int)(H < 100 ? 100 : H));
 
                         //if (_eSnapShotStrategy == eSnapShotStrategy.eSnapShotStrategyFullImagesForColorHistogramGeographicROIBasedImagesForTheRest)
                         //{
@@ -9697,6 +9700,13 @@ namespace Inspection
                     for (int i = 0; i < frmMainInspect.RegionFound1BrSave.Length; i++) frmMainInspect.RegionFound1BrSave[i] = "";//breaks
                     for (int i = 0; i < frmMainInspect.RegionFound1PlSave.Length; i++) frmMainInspect.RegionFound1PlSave[i] = "";//peels
                                                                                                                                  //
+
+                    if(lstSavedParts.SelectedItem == null)
+                    {
+                        MessageBox.Show("Please select a part to load"); 
+                        return;
+                    }
+
                     if (cmbDir.Text.Trim() != "" && lstSavedParts.SelectedItem.ToString() != "")
                     {
                         path = "C:\\Rejects\\" + cmbDir.Text.Trim() + "\\" + lstSavedParts.SelectedItem.ToString();
