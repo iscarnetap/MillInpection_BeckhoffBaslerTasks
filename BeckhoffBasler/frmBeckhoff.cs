@@ -5484,6 +5484,20 @@ namespace Inspection
             catch (Exception ex) { return -1; }
         }
 
+        private int GetNumBladesFromFrmInspect()
+        {
+            try
+            {
+                int inumBlades;
+                if (int.TryParse(frmMainInspect.txtNumberOfBlades.Text, out inumBlades))
+                {
+                    return inumBlades;
+                }
+                return -1;
+            }
+            catch (Exception ex) { return -1; }
+        }
+
         private void SetNumBufferSizeFromFrmInspect()
         {
             try
