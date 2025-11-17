@@ -5629,8 +5629,8 @@ namespace Inspection
         {
             try
             {
-                if (chkShowProgram.Checked) return;
-                if (bShow)// || chkShowProgram.Checked)
+                //if (chkShowProgram.Checked) return;
+                if (bShow || chkShowProgram.Checked)
                 {
                     frmRun.frames = (int)numBufferSize.Value;
                     this.Invoke(new Action(() => frmRun.Hide()));
@@ -6188,8 +6188,8 @@ namespace Inspection
             acommReply.result = false;
             try
             {
-                frmMainInspect.SaveROI(null,new EventArgs());
-                frmMainInspect.SaveROI1(null, new EventArgs());
+                Task.Run(()=> frmMainInspect.SaveROI(null,new EventArgs()));
+                Task.Run(()=> frmMainInspect.SaveROI1(null, new EventArgs()));
                 acommReply.result = true;
                 return acommReply;
             }
